@@ -39,11 +39,36 @@
 			
 			<!-- left part -->
 			<img id="yourimage">
-			<div id="swatch0" class="swatch"></div>
-			<div id="swatch1" class="swatch"></div>
-			<div id="swatch2" class="swatch"></div>
-			<div id="swatch3" class="swatch"></div>
-			<div id="swatch4" class="swatch"></div>
+			<div id="swatch0" class="swatch">
+				<img id="j1" class="jacket" src="icon_jacket.png" />
+			</div>
+			<div id="swatch1" class="swatch">
+				<img id="j1" class="jacket" src="icon_jacket.png" />
+			</div>
+			<div id="swatch2" class="swatch">
+				<img id="j1" class="jacket" src="icon_jacket.png" />
+			</div>
+			<div id="swatch3" class="swatch">
+				<img id="j1" class="jacket" src="icon_jacket.png" />
+			</div>
+			<div id="swatch4" class="swatch">
+				<img id="j1" class="jacket" src="icon_jacket.png" />
+			</div>
+			<div id="swatch0b" class="swatch">
+				<img id="j3" class="jacket" src="icon_pants.png" />
+			</div>
+			<div id="swatch1b" class="swatch">
+				<img id="j3" class="jacket" src="icon_pants.png" />
+			</div>
+			<div id="swatch2b" class="swatch">
+				<img id="j3" class="jacket" src="icon_pants.png" />
+			</div>
+			<div id="swatch3b" class="swatch">
+				<img id="j3" class="jacket" src="icon_pants.png" />
+			</div>
+			<div id="swatch4b" class="swatch">
+				<img id="j3" class="jacket" src="icon_pants.png" />
+			</div>
 		
 			<!-- mid part -->
 			<div id="topDIV"></div>
@@ -55,19 +80,21 @@
 			<!-- right part -->
 			<div id="pattern0" class="pattern">
 				<img id="j1" class="jacket" src="icon_jacket.png" />
+				
 			</div>
-			
+			<input id="sliderTopL" class= "slide" type="range" min="0" max="180" value="120" step="5" onchange="showValueTL(this.value)" />
 			<div id="pattern1" class="pattern">
 				<img id="j2" class="jacket" src="icon_jacket.png" />
 			</div>
-			
+			<input id="sliderTopR" class= "slide" type="range" min="0" max="180" value="45" step="5" onchange="showValueTR(this.value)" />			
 			<div id="pattern2" class="pattern">
 				<img id="j3" class="jacket" src="icon_pants.png" />
 			</div>
-			
+			<input id="sliderBottomL" class= "slide" type="range" min="0" max="180" value="120" step="5" onchange="showValueBL(this.value)" />
 			<div id="pattern3" class="pattern">
 				<img id="j4" class="jacket" src="icon_pants.png" />
-			</div>	
+			</div>
+			<input id="sliderBottomR" class= "slide" type="range" min="0" max="180" value="45" step="5" onchange="showValueBR(this.value)" />
 		</div>
 	</div>
 	<script src="architect.js"></script>
